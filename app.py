@@ -1,11 +1,12 @@
 from flask import Flask
 from flask import request
 from flask import render_template
+import utils
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return render_template("main.html")
 
 @app.route('/login')
 def login():
@@ -16,6 +17,11 @@ def login():
 @app.route('/tem')
 def hallo_world():
     return render_template("index.html")
+
+@app.route('/time')
+def gettime():
+    return utils.get_tim()
+
 
 @app.route('/Buried-sdk')
 def buried_sdk():

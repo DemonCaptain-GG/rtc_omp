@@ -10,32 +10,51 @@ body{
 	left: 30%;
 	/* background: #666666; */
 	color: white;
-	font-size: 30px;
+	font-size: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 #tim{
 	position: absolute;
-	width: 30%;
+	/* width: 30%; */
 	height: 10%;
-	top: 0;
-	right: 0%;
-	background: green;
+	right: 2%;
+	top: 5%;
+	color: #FFFFFF;
+	font-size: 20px;
 }
 #c1{
 	position: absolute;
 	width: 40%;
-	height: 30%;
+	height: 20%;
 	top: 10%;
 	left: 30%;
-	background: #777777;
+	color: white;
+	/* background: #777777; */
+}
+.num {
+	width: 25%;
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gold;
+	font-size: 20px;
+}
+.txt {
+	width: 25%;
+	float: left;
+	font-family: "幼圆";
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #c2{
 	position: absolute;
 	width: 40%;
 	height: 60%;
-	top: 40%;
+	top: 30%;
 	left: 30%;
 	background: #888888;
 }
